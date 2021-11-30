@@ -1,0 +1,26 @@
+@use "../../assets/sass/variables" as *;
+
+.card__employee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.card__info {
+  font-size: 1.4em;
+  font-weight: 500;
+  border-bottom: 3px dashed $card-color;
+  padding: 0.4rem 3rem;
+  margin: 0.6rem;
+}
+
+.card__detail {
+  font-size: 1.4rem;
+  margin: 0;
+  &:first-of-type {
+    margin-bottom: 1rem;
+  }
+}
