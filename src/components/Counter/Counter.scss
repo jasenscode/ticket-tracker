@@ -4,7 +4,7 @@
   width: 200px;
   padding: 10px 30px;
   background-color: $card-color;
-  color: white;
+  color: $primary-light;
   display: flex;
   flex-direction: column;
 }
@@ -24,7 +24,7 @@
 .card__title {
   font-size: 1.3rem;
   font-weight: 600;
-  color: $header-color;
+  color: $primary-dark;
 }
 
 .card__btn {
@@ -32,9 +32,9 @@
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
-  color: white;
+  color: $primary-light;
   &:hover {
-    color: black;
+    color: $primary-dark;
     transition: 0.2s;
   }
 }
