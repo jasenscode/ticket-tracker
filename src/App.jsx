@@ -1,6 +1,7 @@
 import "./App.scss";
 import Header from "./components/Header/Header";
 import CardContainer from "./components/CardContainer/CardContainer";
+import Card from "./components/Card/Card";
 
 function App() {
   return (
@@ -18,11 +19,11 @@ function App() {
           <h3 className="card__number">3</h3>
           <div className="card__controls">
             <button className="card__btn">
-              <span className="fas fa-plus change"></span>
+              <span className="fas fa-plus"></span>
             </button>
             <p className="card__title">Counter</p>
             <button className="card__btn">
-              <span className="fas fa-minus change"></span>
+              <span className="fas fa-minus"></span>
             </button>
           </div>
         </div>

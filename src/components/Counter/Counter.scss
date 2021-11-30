@@ -22,20 +22,19 @@
 }
 
 .card__title {
+  font-size: 1.3rem;
   font-weight: 600;
+  color: $header-color;
 }
 
 .card__btn {
   background-color: transparent;
   border: none;
+  font-size: 1.2rem;
   cursor: pointer;
   color: white;
   &:hover {
     color: black;
     transition: 0.2s;
   }
-}
-
-.change {
-  font-size: 1.2rem;
 }
