@@ -3,7 +3,7 @@ import "./Counter.scss";
 const Counter = () => {
   return (
     <div className="counter">
-      <h3 className="counter__number">0</h3>
+      <span className="counter__number">0</span>
       <div className="counter__controls">
         <button className="counter__increment counter__btn">
           <span className="fas fa-plus change"></span>

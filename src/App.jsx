@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <section className="employee-counters">
-        <EmployeeInfo employeeArr={employeeData} />
+        <Card employeeArr={employeeData} />
       </section>
     </div>
   );
