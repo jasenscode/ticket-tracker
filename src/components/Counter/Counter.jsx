@@ -2,14 +2,14 @@ import "./Counter.scss";
 
 const Counter = () => {
   return (
-    <div className="card__counter">
-      <h3 className="card__number">0</h3>
-      <div className="card__controls">
-        <button className="card__increment card__btn">
+    <div className="counter">
+      <h3 className="counter__number">0</h3>
+      <div className="counter__controls">
+        <button className="counter__increment counter__btn">
           <span className="fas fa-plus change"></span>
         </button>
-        <p className="card__title">Counter</p>
-        <button className="card__decrement card__btn">
+        <p className="counter__title">Counter</p>
+        <button className="counter__decrement counter__btn">
           <span className="fas fa-minus change"></span>
         </button>
       </div>
