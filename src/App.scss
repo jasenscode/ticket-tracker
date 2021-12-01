@@ -6,3 +6,14 @@
   background-color: $primary-light;
   font-family: $primary-font;
 }
+
+.employee-counters {
+  background-color: $container-color;
+  padding: 6rem 6rem;
+  margin: 4rem;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}

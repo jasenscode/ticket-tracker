@@ -1,6 +1,6 @@
 import "./EmployeeInfo.scss";
 
-const EmployeeInfo = () => {
+const EmployeeInfo = (props) => {
   return (
     <div className="card__employee">
       <h2 className="card__info">NAME</h2>
