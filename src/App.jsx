@@ -2,6 +2,7 @@ import "./App.scss";
 import Header from "./components/Header/Header";
 import Card from "./components/Card/Card";
 import employeeData from "./data/data.js";
+
 function App() {
   return (
     <div className="App">
